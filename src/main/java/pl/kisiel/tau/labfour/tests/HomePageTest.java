@@ -28,7 +28,7 @@ public class HomePageTest {
     @BeforeClass
     public static void driverSetup() {
 
-        System.setProperty("webdriver.gecko.driver", "C:\\Programowanie\\Java\\gd\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
         driver = new FirefoxDriver();
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
