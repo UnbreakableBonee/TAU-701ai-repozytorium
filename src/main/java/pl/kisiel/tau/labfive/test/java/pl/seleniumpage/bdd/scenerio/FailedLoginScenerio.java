@@ -8,7 +8,7 @@ import cucumber.api.java.pl.Mając;
 import cucumber.api.java.pl.Wtedy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import pl.seleniumpage.LoginPage;
+import pl.kisiel.tau.labfour.seleniumpage.LoginPage;
 
 import java.util.concurrent.TimeUnit;
 

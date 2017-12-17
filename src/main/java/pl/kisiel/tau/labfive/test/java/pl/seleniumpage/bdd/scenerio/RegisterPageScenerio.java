@@ -8,10 +8,9 @@ import cucumber.api.java.pl.Mając;
 import cucumber.api.java.pl.Wtedy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import pl.seleniumpage.LoginPage;
-import pl.seleniumpage.MyAccountPage;
-import pl.seleniumpage.RegisterPage;
-
+import pl.kisiel.tau.labfour.seleniumpage.LoginPage;
+import pl.kisiel.tau.labfour.seleniumpage.MyAccountPage;
+import pl.kisiel.tau.labfour.seleniumpage.RegisterPage;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -42,7 +41,7 @@ public class RegisterPageScenerio {
         LoginPage login = new LoginPage(driver);
         Random random = new Random();
         int constantLogin = random.nextInt(1000000);
-        String loginUser = user+constantLogin+"@topkek2.pl";
+        String loginUser = user+constantLogin+"@sebaseba2.pl";
         login.setRegisterEmailFieldText(loginUser);
     }
 
